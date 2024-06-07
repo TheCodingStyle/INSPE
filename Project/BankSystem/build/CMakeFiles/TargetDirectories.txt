@@ -1,0 +1,3 @@
+/Users/tenshiz/Desktop/C-C++/Banking Application/build/CMakeFiles/output.dir
+/Users/tenshiz/Desktop/C-C++/Banking Application/build/CMakeFiles/edit_cache.dir
+/Users/tenshiz/Desktop/C-C++/Banking Application/build/CMakeFiles/rebuild_cache.dir

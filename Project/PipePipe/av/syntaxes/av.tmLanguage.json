@@ -1,0 +1,50 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "Anos Voldigoad Programming Language",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#strings"
+		},
+		{
+			"include": "#numbers"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [{
+				"name": "keyword.av",
+				"match": "\\b(output|Ivar|Fvar|Svar|Bvar)\\b"
+			}]
+		},
+		"strings": {
+			"name": "string.quoted.double.av",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.av",
+					"match": "\\\\."
+				}
+			]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.av",
+					"match": "-?\\d*\\.?\\d+"
+				}
+			]
+		},
+		"expression": {
+			"patterns": [
+				{"include": "#numbers"},
+				{"include": "keywords"}
+			]
+		}
+	},
+
+	"scopeName": "source.av"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "av",
+  "displayName": "AV",
+  "description": "AV is a Programming Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "av",
+      "aliases": ["Anos Voldigoad Programming Language", "av"],
+      "extensions": [".av"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "av",
+      "scopeName": "source.av",
+      "path": "./syntaxes/av.tmLanguage.json"
+    }]
+  }
+}

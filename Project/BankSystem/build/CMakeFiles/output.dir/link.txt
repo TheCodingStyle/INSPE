@@ -1,0 +1,1 @@
+/usr/bin/clang++  -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/output.dir/main.cpp.o CMakeFiles/output.dir/Bank.cpp.o CMakeFiles/output.dir/User.cpp.o -o output 

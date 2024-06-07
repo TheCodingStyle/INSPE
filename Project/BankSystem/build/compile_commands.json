@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/Users/tenshiz/Desktop/C-C++/Banking Application/build",
+  "command": "/usr/bin/clang++    -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -o CMakeFiles/output.dir/main.cpp.o -c \"/Users/tenshiz/Desktop/C-C++/Banking Application/main.cpp\"",
+  "file": "/Users/tenshiz/Desktop/C-C++/Banking Application/main.cpp"
+},
+{
+  "directory": "/Users/tenshiz/Desktop/C-C++/Banking Application/build",
+  "command": "/usr/bin/clang++    -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -o CMakeFiles/output.dir/Bank.cpp.o -c \"/Users/tenshiz/Desktop/C-C++/Banking Application/Bank.cpp\"",
+  "file": "/Users/tenshiz/Desktop/C-C++/Banking Application/Bank.cpp"
+},
+{
+  "directory": "/Users/tenshiz/Desktop/C-C++/Banking Application/build",
+  "command": "/usr/bin/clang++    -std=c++14 -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.1.sdk -mmacosx-version-min=13.0 -o CMakeFiles/output.dir/User.cpp.o -c \"/Users/tenshiz/Desktop/C-C++/Banking Application/User.cpp\"",
+  "file": "/Users/tenshiz/Desktop/C-C++/Banking Application/User.cpp"
+}
+]
