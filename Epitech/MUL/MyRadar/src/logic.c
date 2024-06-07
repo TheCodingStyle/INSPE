@@ -24,7 +24,7 @@ static void update_sprite_rotation(game_t *game, int i, sfVector2f cu, int dt)
     float angle = atan2f(cu.y, cu.x) * (180.0f / 3.14159265359f);
 
     sfSprite_setRotation(game->plane_objects[i]->sprite, angle);
-    sfSprite_setRotation(game->plane_objects[i]->hitbox_shape, angle);
+    sfRectangleShape_setRotation(game->plane_objects[i]->hitbox_shape, angle); 
 }
 
 int is_collision(sfVector2f p1, sfVector2f s1, sfVector2f p2, sfVector2f s2)
